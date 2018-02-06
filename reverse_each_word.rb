@@ -1,4 +1,7 @@
 def reverse_each_word(item)
-  a = item.join.reverse
-  a
+  a = item.split(" ")
+  b = a.reverse
+  b.join(" ")
+
+
 end
